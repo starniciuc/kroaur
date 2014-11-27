@@ -7,4 +7,126 @@ and open the template in the editor.
     Created on : Nov 27, 2014, 2:46:33 PM
     Author     : mstarniciuc
 */
-
+.form-side label{
+    color: #7f7f7f;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 40px;
+}
+.form-side p.rules{
+    color: #7f7f7f;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.modal .icon-wrap{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.modal-styled .inputtext .form-control{
+    height: 40px;
+}
+.modal-styled .inputtext{
+    margin-bottom: 0;
+}
+.modal-styled .inputtext .form-control.inputtextarea{
+    min-height: 115px;
+}
+.modal-styled .btn-styled{
+    background-color: #0046a9;
+    border-color: #0046a9;
+    box-shadow: 0 10px 0 #002e70;
+}
+.modal-styled .btn-styled:hover{
+    background-color: #002e70;
+    border-color: #002e70;
+}
+.accept-agb{
+    position: relative;
+}
+.accept-agb input[type="checkbox"]{
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+}
+.accept-agb input[type="checkbox"] + label{
+    background: url("../img/checkbox.png") no-repeat 0 5px;
+    font-size: 16px;
+    color: #7f7f7f;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40px;
+    line-height: 30px;
+}
+.accept-agb input[type="checkbox"]:checked + label{
+    background-position: 0 -30px;
+}
+.term-condition{
+    height: 110px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid #7f7f7f;
+    border-radius: 4px;
+    padding: 5px;
+}
+.term-condition p{
+    font-size: 13px;
+    color: #7f7f7f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.answer{
+    background-color: #f2f2f2;
+    border-radius: 4px 4px 0 0;
+    padding: 0;
+}
+.answer > a{
+    display: block;
+    height: 30px;
+    color: #2e2e2e;
+    line-height: 30px;
+    font-size: 18px;
+    padding: 0 5px;
+    background: rgb(243,243,243); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(243,243,243,1) 0%, rgba(218,218,218,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(243,243,243,1)), color-stop(100%,rgba(218,218,218,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(243,243,243,1) 0%,rgba(218,218,218,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(243,243,243,1) 0%,rgba(218,218,218,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(243,243,243,1) 0%,rgba(218,218,218,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(243,243,243,1) 0%,rgba(218,218,218,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#dadada',GradientType=0 ); /* IE6-9 */
+    border-radius: 4px;     
+}
+.answer a .caret{
+    color: #0046a9;
+    float: right;
+    font-size: 25px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.answer ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.answer ul li a{
+    padding: 0 15px;
+    color: #1951a2;
+}
+.answer ul li a:hover{
+    text-decoration: underline;
+}
+.answer .inner-collapse > a{
+    display: block;
+    min-height: 30px;
+    color: #2e2e2e;
+    line-height: 30px;
+    font-size: 18px;
+    padding: 0 5px;
+    background-color: #dcdcdc;
+}
+.answer .inner-collapse > a:hover{
+    background-color: #cccccc;
+}
