@@ -112,8 +112,10 @@ and open the template in the editor.
     list-style: none;
 }
 .answer ul li a{
-    padding: 0 15px;
     color: #1951a2;
+}
+.answer ul li{
+    padding: 0 15px;
 }
 .answer ul li a:hover{
     text-decoration: underline;
@@ -129,4 +131,7 @@ and open the template in the editor.
 }
 .answer .inner-collapse > a:hover{
     background-color: #cccccc;
+}
+#termn{
+	display: none;
 }
